@@ -15,8 +15,8 @@
   body{
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
-    @apply text-zinc-400;
-    background: #0e0f0f;
+    @apply text-zinc-900;
+    background: #DCCAB0;
   }
   h1{
     @apply text-2xl font-light;
@@ -30,12 +30,11 @@
   }
 
   a{
-    @apply text-zinc-100;
+    @apply text-zinc-700;
   }
 
   a:hover{
-    /* @apply text-zinc-900; */
+    @apply text-zinc-900;
     border-bottom: 2px white dashed;
-    color: #C4D6B0;
   }
 }
