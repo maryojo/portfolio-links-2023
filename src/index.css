@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 
@@ -14,7 +15,8 @@
   body{
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
-    color: white;
+    @apply text-zinc-400;
+    background: #0e0f0f;
   }
   h1{
     @apply text-2xl font-light;
@@ -28,11 +30,12 @@
   }
 
   a{
-    @apply text-zinc-600;
+    @apply text-zinc-100;
   }
 
   a:hover{
-    @apply text-zinc-900;
+    /* @apply text-zinc-900; */
     border-bottom: 2px white dashed;
+    color: #C4D6B0;
   }
 }
