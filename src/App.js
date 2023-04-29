@@ -9,8 +9,9 @@ import logo from "./images/logoe.png";
 export default function App() {
   return (
     <div className="here relative">
+    
       <Spline className="hidden lg:block" scene="https://prod.spline.design/ucDueTh0omand6Xu/scene.splinecode" />
-      <Spline className="block lg:hidden" scene="https://prod.spline.design/mYW3Ov24QVBDuLGe/scene.splinecode" />
+      <Spline className="block lg:hidden" scene="https://prod.spline.design/pjV1dsCkZ6BnD2-i/scene.splinecode" />
       {/* <div className="absolute top-10 left-10"><img src={logo}/></div> */}
       <div className="absolute top-6 right-10 lg:top-10 lg:right-36 w-5/6 md:w-4/6 lg:w-3/6 flex flex-col gap-4">
         <h1>Hi there!</h1>
