@@ -1,13 +1,36 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.here{
+  height: 100vh;
+  width: 100%;
+}
+
+@layer base{
+  h1{
+    @apply text-2xl font-light;
+    font-family: 'Changa One', cursive;
+  }
+}
+
+@layer components{
+  .icon{
+    @apply text-base text-zinc-600;
+  }
+
+  a{
+    @apply text-zinc-600;
+  }
+
+  a:hover{
+    @apply text-zinc-900;
+    border-bottom: 2px white dashed;
+  }
 }
